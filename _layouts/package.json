@@ -1,0 +1,33 @@
+{
+  "name": "path-to-sde",
+  "version": "1.0.0",
+  "description": "Roadmap to a Software Developer Job",
+  "keywords": [
+    "Bernard",
+    "Martis",
+    "foam",
+    "knowledge base"
+  ],
+  "author": "Bernard Martis",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"../**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "gatsby": "^4.6.2",
+    "gatsby-plugin-copy-files-enhanced": "^1.1.1",
+    "gatsby-remark-copy-linked-files": "^4.10.0",
+    "gatsby-remark-prismjs": "^5.10.0",
+    "gatsby-theme-kb": "^0.9.0",
+    "prism-themes": "^1.8.0",
+    "prismjs": "^1.24.1",
+    "rehype-katex": "^5.0.0",
+    "remark-math": "^3.0.1"
+  }
+}
